@@ -33,5 +33,7 @@ C:> open whatsapp
 C:> open task manager
 C:> open microsoft excel
 C:> open control panel
+C:> show time
+C:> show date
 Note: 
 > This project is under development stage and fully operational on Windows Command Prompt
