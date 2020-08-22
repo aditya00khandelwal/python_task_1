@@ -147,6 +147,18 @@ while True:
 		else:
 			pyttsx3.speak("opening control panel") 
 			os.system("control panel")
+	elif (("run" in p) or ("launch" in p) or 	("execute" in p) or ("open" in p) or ("show" in p)) and (("date" in p)):
+		if (("dont" in p) or ("not" in p) or ("don't" in p)):
+			print("", end='')
+		else:
+			pyttsx3.speak("showing today's date") 
+			os.system("date")
+	elif (("run" in p) or ("launch" in p) or 	("execute" in p) or ("open" in p) or ("show" in p)) and (("time" in p)):
+		if (("dont" in p) or ("not" in p) or ("don't" in p)):
+			print("", end='')
+		else:
+			pyttsx3.speak("showing today's time") 
+			os.system("time")		
 
 	elif ("stop" in p) or ("close" in p) or ("exit" in p) or ("end" in p):
 		pyttsx3.speak("closing the software")
