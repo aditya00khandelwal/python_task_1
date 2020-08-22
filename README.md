@@ -9,9 +9,6 @@
 - now install python module:
 ```shell
 C:> pip install pyttsx3
-C:> pip install beautifulsoup4==4.6.0
-C:> pip install requests==2.21.0
-C:> pip install lxml==4.3.0
 ```
 ---
 ## Features
