@@ -1,6 +1,7 @@
 #This is a user friendly software for windows 8 or 8.1
 import pyttsx3
 import os
+import time
 
 pyttsx3.speak(" Hey...Welcome to my software")
 x = "Welcome to my software "
@@ -19,7 +20,7 @@ while True:
 		else:
 			pyttsx3.speak("opening  google chrome")
 			os.system("start chrome")
-
+			time.sleep(3)
 	elif (("run" in p) or ("launch" in p) or ("open" in p) or ("execute" in p)) and (("notepad" in p) or("notebook" in p) or ("editor" in p)):
 		
 		if (("dont" in p) or ("not" in p) or ("don't" in p)):
