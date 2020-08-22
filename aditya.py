@@ -4,7 +4,7 @@ import os
 import time
 
 pyttsx3.speak(" Hey...Welcome to my software")
-x = "Welcome to my software "
+x = "Welcome to my software"
 y = x.center(80)
 print(y)
 
